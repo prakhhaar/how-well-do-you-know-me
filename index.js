@@ -14,11 +14,21 @@ var questionTwo = {
 }
 
 var questionThree = {
-  question : "Who's my favourite sportsperson ?",
+  question : "Who's my favourite sportsperson ? ",
   answer : "Cristiano Ronaldo"
 }
 
-var questionsList = [questionOne, questionTwo, questionThree];
+var questionFour = {
+  question: "Which game I have played competitively? ",
+  answer: "Chess"
+}
+
+var questionFive = {
+  question: "What collection was my first NFT? ",
+  answer: "SGF United"
+}
+
+var questionsList = [questionOne, questionTwo, questionThree, questionFour, questionFive];
 askQuestions(questionsList);
 
 function askQuestions(questionList){
